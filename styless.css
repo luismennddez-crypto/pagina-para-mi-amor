@@ -1,0 +1,83 @@
+/* Reinicio básico */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Fondo principal */
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(
+        135deg,
+        #000000 0%,
+        #12759f 50%,
+        #000000 100%
+    );
+    color:white;
+}
+
+/* Caja central */
+.contenedor{
+    text-align:center;
+    background: rgba(255,255,255,0.08);
+    padding:50px;
+    border-radius:20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 25px rgba(18,117,159,0.5);
+    max-width:600px;
+    width:90%;
+}
+
+/* Títulos */
+h1{
+    color:#7fdcff;
+    margin-bottom:20px;
+    font-size:2rem;
+}
+
+/* Texto */
+p{
+    font-size:1.3rem;
+    line-height:1.6;
+    margin-bottom:30px;
+}
+
+/* Botón */
+.boton{
+    display:inline-block;
+    padding:15px 35px;
+    background:#12759f;
+    color:white;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:bold;
+    transition:0.3s ease;
+}
+
+/* Efecto hover */
+.boton:hover{
+    background:#18a1d8;
+    transform:scale(1.05);
+    box-shadow:0 0 15px #18a1d8;
+}
+/* Contenedor general */
+.layout{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:40px;
+}
+
+/* Imágenes laterales */
+.imagen-lateral{
+    width:220px;
+    height:300px;
+    object-fit:cover;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,0.4);
+}
